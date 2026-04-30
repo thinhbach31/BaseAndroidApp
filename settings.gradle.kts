@@ -23,5 +23,14 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "BaseAndroidApp"
+
 include(":app")
- 
+
+include(":core:common")
+include(":core:database")
+include(":core:network")
+include(":core:designsystem")
+
+include(":feature:notes")
+include(":feature:recorder")
+include(":feature:listing")
